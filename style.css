@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:none;
+}
+
+
+
+body{
+    margin-top:50px;
+    text-align: center;
+}
+
+button{
+    margin-top:30px;
+}
+
+#keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    gap:10px
+}
+
+.unknownword{
+    margin-right: 15px;
+    font-size: 40px;
+}
+
+#words{
+    display: flex;
+    place-content: center;    
+}
