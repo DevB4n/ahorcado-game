@@ -13,11 +13,21 @@ restartButton.style.display = 'none';
 document.body.insertBefore(restartButton, keyboard);
 
 const wordsbox = [
-    "gato", "perro", "raton", "computadora", "internet", "javascript",
-    "ahorcado", "pantalla", "teclado", "raton", "nube", "tormenta", "futbol",
-    "musica", "montaña", "bosque", "universo", "planeta", "astronauta", "caminar",
-    "bicicleta", "cielo", "naranja", "elefante", "jirafa", "murcielago"
+    "gato", "perro", "raton", "elefante", "jirafa", "murcielago", "leon", "tigre", 
+    "oso", "lobo", "zorro", "panda", "koala", "canguro", "wallaby", "delfin", "ballena", 
+    "tiburon", "pingüino", "aguila", "halcon", "buho", "paloma", "pavo", "cebra", "caballo", 
+    "burro", "vaca", "cabra", "oveja", "cerdo", "gallo", "pato", "ganso", "gallina", "pescado", 
+    "tortuga", "sapo", "rana", "serpiente", "camaleon", "iguana", "loro", "perico", "canario", 
+    "gaviota", "pelicano", "foca", "leonmarino", "lince", "zebra", "pantera", "orca", "bisonte", 
+    "ciervo", "alce", "gacela", "rinoceronte", "hipopotamo", "flamenco", "cisne", "dromedario", 
+    "cocodrilo", "caiman", "tiburonblanco", "mantarraya", "estrellademar", "langosta", "cangrejo", 
+    "pulpo", "medusa", "calamar", "pezpayaso", "pezespada", "pezgato", "anguilla", "bacalao", 
+    "sardina", "trucha", "atun", "salmon", "corvina", "blanquillo", "lambari", "lucio", "perca", 
+    "coral", "mejorana", "camaron", "erizodemar", "mantarayas", "pelusa", "crustaceo", "molusco", 
+    "mariposa", "libelula", "catarina", "grillo", "saltamontes", "arana", "escorpion", "alacran", 
+    "cucaracha", "mosca", "mosquito", "abeja", "avispón", "mariposanoturna", "polilla", "escarabajo"
 ];
+
 
 
 let word = wordsbox[Math.floor(Math.random() * wordsbox.length)].toLowerCase();
